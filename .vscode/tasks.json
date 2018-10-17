@@ -9,9 +9,9 @@
       "command": "gcc",
       "args": [
         "-g",
-        "${workspaceRoot}/${fileBasenameNoExtension}.c",
+        "${fileDirname}/${fileBasenameNoExtension}.c",
         "-o",
-        "/${fileDirname}/${fileBasenameNoExtension}.out"
+        "${fileDirname}/${fileBasenameNoExtension}.out"
       ],
       "group": {
         "kind": "build",
